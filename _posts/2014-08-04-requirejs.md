@@ -5,4 +5,4 @@ slug: requirejs
 source: http://requirejs.org/
 ---
 
-<img src="/screenshots/require.png">
+<img src="/screenshots/requirejs.png">
