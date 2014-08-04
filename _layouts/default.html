@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>
+    {% if page.title == "Home" %}
+      Beautiful Open
+    {% else if %}
+      {{ page.title }} &middot; Beautiful Open
+    {% endif %}
+  </title>
+
+  <meta property="og:title" content="Beautiful Open"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://beautifulopen.com/"/>
+  <meta property="og:image" content="{{ site.url }}/img/ember-logo.jpg"/>
+  <meta property="og:site_name" content="Beautiful Open"/>
+
+  <!-- <link rel="shortcut icon" href="/img/favicon.png" /> -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+</head>
+<body>
+  <div class="main-sidebar">
+    <h1><a href="/" class="site-name">Beautiful Open</a></h1>
+    <p class="subtitle">Beautiful sites for Open Source projects.</p>
+    <p class="byline">Hand curated by <a href="https://twitter.com/trek">@trek</a></p>
+
+    <hr class="main-sidebar-hr">
+
+    {% include navigation.html %}
+
+    <hr class="main-sidebar-hr">
+  </div>
+  <div class="main-container">
+    {{ content }}
+  </div>
+
+</body>
+</html>
