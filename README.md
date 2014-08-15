@@ -18,6 +18,10 @@ screenshot through an image optimizer like
 before including it. This will help keep the website fast and the repository
 small as possible.
 
+Please exclude the date from your submission. Name your markdown file
+`xxxx-xx-xx-<somename>.md`, where `<somename>` is the name of the site, e.g.
+`xxxx-xx-xx-emberjs.md`. I'll supply the date when accepting your pull request.
+
 ### Running the site locally
 ```
 $ gem install jekyll
