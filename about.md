@@ -15,7 +15,7 @@ submission. Submissions with inappropriate content will not be accepted.
 ## How to submit
 To submit a site suggestion,
 [open an issue](https://github.com/trek/beautiful-open/issues/new)
-or [create a pull request](https://github.com/trek /beautiful-open/pulls/new).
+or [create a pull request](https://github.com/trek/beautiful-open/pulls/new).
 Pull requests will be given higher priority since
 they are easier to include. Make sure the screenshot is 1000x800 and please
 double check that everything looks good before submitting. It's also a good
@@ -25,11 +25,11 @@ website fast and the repository small as possible.
 
 ## About the site
 Inspired by [Bootstrap Expo](http://expo.getbootstrap.com/)
-and [Built WithEmber](http://builtwithember.io/). It's built with
+and [Built With Ember](http://builtwithember.io/). It's built with
 [Jekyll](http://jekyllrb.com), developed on
-[GitHub](https://github.com/trek /beautiful-open), and is hosted
+[GitHub](https://github.com/trek/beautiful-open), and is hosted
 on [GitHub Pages](https://pages.github.com).
 
 ## Contact
 If you have any questions or comments, just send an email to
-[trek.glowacki@gmail.com](mailto:trek.glowacki@glowacki@gmail.com).
+[trek.glowacki@gmail.com](mailto:trek.glowacki@gmail.com).
