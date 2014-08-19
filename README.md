@@ -11,16 +11,7 @@ submission. Submissions with inappropriate content will not be accepted.
 To submit a site suggestions, [open an issue](https://github.com/trek/beautiful-open/issues/new)
 or create a pull request. Pull requests will be given higher priority since they are easier to include.
 
-Make sure the screenshot is **1000x800** and please double check that
-everything looks good before submitting. It's also a good idea to run the
-screenshot through an image optimizer like
-[ImageOptim](https://imageoptim.com/) or [TinyPNG](https://tinypng.com/)
-before including it. This will help keep the website fast and the repository
-small as possible.
-
-Please exclude the date from your submission. Name your markdown file
-`xxxx-xx-xx-<somename>.md`, where `<somename>` is the name of the site, e.g.
-`xxxx-xx-xx-emberjs.md`. I'll supply the date when accepting your pull request.
+Please check the [`CONTRIBUTING.md` file](./CONTRIBUTING.md) for additional requiremnts.
 
 ### Running the site locally
 ```
