@@ -2,6 +2,7 @@
 
 ## New submissions
 
+  1. One submission per Issue or Pull Request
   1. Please name your file `xxxx-xx-xx-<name>.md` where `<name>` is
      replaced with the name of your site, e.g. `xxxx-xx-xx-emberjs.md`.
      I will supply the date when publishing the site.
