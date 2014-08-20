@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PlaceholdIt"
-slug: PlaceholdIt
+title: "placehold.it"
+slug: placehold.it
 source: http://placehold.it
 ---
 
