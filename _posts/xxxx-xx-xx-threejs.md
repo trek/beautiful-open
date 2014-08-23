@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Three.js"
-slug: three.js
+slug: threejs
 source: http://threejs.org/
 ---
 
