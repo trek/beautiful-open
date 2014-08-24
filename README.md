@@ -9,7 +9,7 @@ submission. Submissions with inappropriate content will not be accepted.
 
 ### How to submit
 To submit a site suggestions, [open an issue](https://github.com/trek/beautiful-open/issues/new)
-or create a pull request. Pull requests will be given higher priority since they are easier to include.
+or create a pull request.
 
 Please check the [`CONTRIBUTING.md` file](./CONTRIBUTING.md) for additional requiremnts.
 

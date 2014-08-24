@@ -1,8 +1,16 @@
 # Contributing
 
-## New submissions
+## New Issues
 
-  1. One submission per Issue or Pull Request
+  1. Check to see if an existing Issue or Pull Request exists!
+  1. Only one submissing per Issue
+
+## New Pull Requests
+  1. Check to see if an existing Issue or Pull Request exists!
+  1. One submission per Pull Request
+  1. If we've queued up a site [with an existing Issue](https://github.com/trek/beautiful-open/issues?q=author%3Atrek)
+     please don't open a Pull Request. Reviewing a Pull Request to make sure it meets
+     the rest of these requirements takes about as long as creating from scratch
   1. Please name your file `xxxx-xx-xx-<name>.md` where `<name>` is
      replaced with the name of your site, e.g. `xxxx-xx-xx-emberjs.md`.
      I will supply the date when publishing the site.
