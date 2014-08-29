@@ -3,7 +3,7 @@
 ## New Issues
 
   1. Check to see if an existing Issue or Pull Request exists!
-  1. Only one submissing per Issue
+  1. Only one submission per Issue
 
 ## New Pull Requests
   1. Check to see if an existing Issue or Pull Request exists!
@@ -14,6 +14,7 @@
   1. Please name your file `xxxx-xx-xx-<name>.md` where `<name>` is
      replaced with the name of your site, e.g. `xxxx-xx-xx-emberjs.md`.
      I will supply the date when publishing the site.
+  1. Set your browser size to **1000x800** at 90% zoom
   1. Make sure the screenshot is **1000x800** and please double check that
      everything looks good before submitting.
   1. Run the screenshot through an image optimizer like
