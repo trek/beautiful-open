@@ -25,3 +25,6 @@ Temporary Items
 
 _gh_pages
 CNAME
+Gemfile.lock
+node_modules/
+.bundle/
