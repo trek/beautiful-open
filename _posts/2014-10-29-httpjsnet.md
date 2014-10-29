@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTTPjs.net"
-slug: flatdoc
+slug: httpjs
 source: http://httpjs.net/
 ---
 
