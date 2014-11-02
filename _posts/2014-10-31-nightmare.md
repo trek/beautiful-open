@@ -5,4 +5,4 @@ slug: nightmare
 source: http://www.nightmarejs.org/
 ---
 
-<img src="/screenshots/nightmare.png">
+<img src="/beautiful-open/screenshots/nightmare.png">

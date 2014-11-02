@@ -5,4 +5,4 @@ slug: ampersandjs
 source: http://ampersandjs.com/
 ---
 
-<img src="/screenshots/ampersandjs.png">
+<img src="/beautiful-open/screenshots/ampersandjs.png">

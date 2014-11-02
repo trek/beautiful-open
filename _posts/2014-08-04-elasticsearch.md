@@ -5,4 +5,4 @@ slug: elasticsearch
 source: http://www.elasticsearch.org/
 ---
 
-<img src="/screenshots/elasticsearch.png">
+<img src="/beautiful-open/screenshots/elasticsearch.png">

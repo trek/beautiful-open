@@ -5,4 +5,4 @@ slug: kitematic
 source: https://kitematic.com/
 ---
 
-<img src="/screenshots/kitematic.png">
+<img src="/beautiful-open/screenshots/kitematic.png">

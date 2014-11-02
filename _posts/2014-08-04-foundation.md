@@ -5,4 +5,4 @@ slug: foundation
 source: http://foundation.zurb.com/
 ---
 
-<img src="/screenshots/foundation.png">
+<img src="/beautiful-open/screenshots/foundation.png">

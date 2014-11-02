@@ -5,4 +5,4 @@ slug: marionettejs
 source: http://marionettejs.com/
 ---
 
-<img src="/screenshots/marionette.png">
+<img src="/beautiful-open/screenshots/marionette.png">

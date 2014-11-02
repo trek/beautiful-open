@@ -5,4 +5,4 @@ slug: browserify
 source: http://browserify.org/
 ---
 
-<img src="/screenshots/browserify.png">
+<img src="/beautiful-open/screenshots/browserify.png">

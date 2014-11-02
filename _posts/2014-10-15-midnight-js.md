@@ -5,4 +5,4 @@ slug: midnight-js
 source: http://aerolab.github.io/midnight.js/
 ---
 
-<img src="/screenshots/midnight-js.png">
+<img src="/beautiful-open/screenshots/midnight-js.png">

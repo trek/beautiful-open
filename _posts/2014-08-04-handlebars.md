@@ -5,4 +5,4 @@ slug: handlebars
 source: http://handlebarsjs.com/
 ---
 
-<img src="/screenshots/handlebars.png">
+<img src="/beautiful-open/screenshots/handlebars.png">

@@ -5,4 +5,4 @@ slug: sandstorm
 source: https://sandstorm.io/
 ---
 
-<img src="/screenshots/sandstorm.png">
+<img src="/beautiful-open/screenshots/sandstorm.png">
