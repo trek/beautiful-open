@@ -9,5 +9,5 @@ paginate:         10
 encoding:         UTF-8
 future:           false
 name:             Beautiful Open
-url:              http://michelthierry.org/beautiful-open
+url:              http://bo.michelthierry.org
 description:      "Handsome sites for open source"
