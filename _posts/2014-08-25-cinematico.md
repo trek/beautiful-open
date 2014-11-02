@@ -5,4 +5,4 @@ slug: cinematico
 source: http://cinemati.co/
 ---
 
-<img src="/screenshots/cinematico.png">
+<img src="/beautiful-open/screenshots/cinematico.png">

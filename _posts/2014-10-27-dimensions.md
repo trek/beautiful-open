@@ -5,4 +5,4 @@ slug: dimensions
 source: http://felixniklas.com/dimensions/
 ---
 
-<img src="/screenshots/dimensions.png">
+<img src="/beautiful-open/screenshots/dimensions.png">

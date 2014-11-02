@@ -5,5 +5,5 @@ slug: converse-js
 source: https://conversejs.org/
 ---
 
-<img src="/screenshots/conversejs.png">
+<img src="/beautiful-open/screenshots/conversejs.png">
 

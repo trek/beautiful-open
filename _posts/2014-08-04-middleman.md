@@ -5,4 +5,4 @@ slug: middelman
 source: http://middlemanapp.com/
 ---
 
-<img src="/screenshots/middleman.png">
+<img src="/beautiful-open/screenshots/middleman.png">

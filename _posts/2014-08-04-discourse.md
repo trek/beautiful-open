@@ -5,4 +5,4 @@ slug: discourse
 source: http://www.discourse.org/
 ---
 
-<img src="/screenshots/discourse.png">
+<img src="/beautiful-open/screenshots/discourse.png">

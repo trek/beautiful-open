@@ -1,6 +1,6 @@
 <ul class="list-unstyled">
   <li class="nav-item">
-    <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="/">Home</a>
+    <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="/beautiful-open/">Home</a>
   </li>
 
   {% assign pages_list = site.pages %}
@@ -8,13 +8,13 @@
     {% if node.title != null %}
       {% if node.layout == "page" %}
         <li class="nav-item">
-          <a class="nav-link{% if page.url == node.url %} nav-link-active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          <a class="nav-link{% if page.url == node.url %} nav-link-active{% endif %}" href="/beautiful-open/about/">{{ node.title }}</a>
         </li>
       {% endif %}
     {% endif %}
   {% endfor %}
   <li class="nav-item">
-    <a class="nav-link" href="/about/">Submit a site</a>
+    <a class="nav-link" href="/beautiful-open/about/">Submit a site</a>
   </li>
 </ul>
 
@@ -25,6 +25,6 @@
     <a class="nav-link" href="https://twitter.com/Beautiful_Open">Twitter</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/feed.xml">RSS</a>
+    <a class="nav-link" href="/beautiful-open/feed.xml">RSS</a>
   </li>
 </ul>

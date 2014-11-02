@@ -5,4 +5,4 @@ slug: typescript
 source: http://www.typescriptlang.org/
 ---
 
-<img src="/screenshots/typescript.png">
+<img src="/beautiful-open/screenshots/typescript.png">
