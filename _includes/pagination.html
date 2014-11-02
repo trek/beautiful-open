@@ -1,15 +1,15 @@
 <div class="paginator">
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="paginate older">Older</a>
+    <a href="/beautiful-open/page{{paginator.next_page}}" class="paginate older">Older</a>
   {% else %}
     <span class="paginate older">Older</span>
   {% endif %}
 
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="/" class="paginate newer">Newer</a>
+      <a href="/beautiful-open/" class="paginate newer">Newer</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="paginate newer">Newer</a>
+      <a href="/beautiful-open/page{{paginator.previous_page}}" class="paginate newer">Newer</a>
     {% endif %}
   {% else %}
     <span class="paginate newer">Newer</span>
