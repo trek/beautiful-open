@@ -9,5 +9,5 @@ paginate:         10
 encoding:         UTF-8
 future:           false
 name:             Beautiful Open
-url:              http://beautifulopen.com
+url:              http://mthierry.github.io/beautiful-open/
 description:      "Handsome sites for open source"
