@@ -16,7 +16,7 @@ submission. Submissions with inappropriate content will not be accepted.
 To submit a site suggestion, [open an issue](https://github.com/trek/beautiful-open/issues/new)
 or [create a pull request](https://github.com/trek /beautiful-open/pulls/new).
 Issues will be given higher priority since
-checking someone followed instructions is harder than just creating the
+checking that someone followed instructions is harder than just creating the
 submission by hand. If you do open a Pull Request: make sure the screenshot is
 1000x800, taken at 90% zoom. Please double check that everything looks good before submitting.
 It's also a good idea to run the screenshot through an image optimizer like
