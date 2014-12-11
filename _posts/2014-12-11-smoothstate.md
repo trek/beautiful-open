@@ -5,4 +5,4 @@ slug: smoothstate
 source: http://weblinc.github.io/jquery.smoothState.js/
 ---
 
-<img src="/screenshots/smoothstate.gif">
+<img src="/screenshots/smoothstate.png">
