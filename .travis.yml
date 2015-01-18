@@ -1,1 +1,4 @@
-pull_request: ./scripts/test-PR.sh
+language: ruby
+rvm:
+  ruby-2.0.0-p353
+script: ./scripts/test-PR.sh
