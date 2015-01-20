@@ -14,7 +14,7 @@ submission. Submissions with inappropriate content will not be accepted.
 
 ## How to submit
 To submit a site suggestion, [open an issue](https://github.com/trek/beautiful-open/issues/new)
-or [create a pull request](https://github.com/trek /beautiful-open/pulls/new).
+or [create a pull request](https://github.com/trek/beautiful-open/pulls/new).
 Issues will be given higher priority since
 checking that someone followed instructions is harder than just creating the
 submission by hand. If you do open a Pull Request: make sure the screenshot is
