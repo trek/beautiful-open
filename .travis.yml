@@ -1,4 +1,6 @@
 language: ruby
 rvm:
   ruby-2.0.0-p353
+
+install: true
 script: ./scripts/test-PR.sh
