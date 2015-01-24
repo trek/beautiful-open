@@ -3,7 +3,7 @@
 hyphenToTitleCase() { 
     tr '-' '\n' | awk '{printf "%s%s", toupper(substr($0,0,1)), substr($0,2)}';
 }
-files=$(git show --name-only | tail -2);
+files=$(git log -m -1 --name-only --pretty="format:" ${TRAVIS_COMMIT});
 
 # check if numbers of files is 2
 modified_files=$(echo $files | wc -w | sed -e 's/^ *//' -e 's/ *$//' ); #trim it
