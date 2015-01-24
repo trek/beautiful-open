@@ -4,3 +4,6 @@ rvm:
 
 install: true
 script: ./scripts/test-PR.sh
+branches:
+  only:
+    - gh-pages
