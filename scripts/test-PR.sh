@@ -3,11 +3,11 @@
 hyphenToTitleCase() { 
     tr '-' '\n' | awk '{printf "%s%s", toupper(substr($0,0,1)), substr($0,2)}';
 }
-
-files=$(git show --pretty="format:" --name-only ${TRAVIS_COMMIT})
+files=$(git log -m -1 --name-only --pretty="format:" ${TRAVIS_COMMIT});
 
 # check if numbers of files is 2
-modified_files=$(echo $files|wc -w);
+modified_files=$(echo $files | wc -w | sed -e 's/^ *//' -e 's/ *$//' ); #trim it
+echo "- Commit contains $modified_files file(s)";
 if [[ $modified_files -ne "2" ]]; then
   echo "More than 2 files in the PR.";
   exit 1;
@@ -15,7 +15,9 @@ fi
 
 # split by space
 post=$(echo $files | cut -f1 -d\ );
+echo "- Post path: $post";
 screenshot=$(echo $files | cut -f2 -d\ );
+echo "- Screenshot path: $screenshot";
 
 # test filename == xxxx-xx-xx-.*\.md
 match=$(echo $post | grep -o "_posts/xxxx-xx-xx-.*\.md");
@@ -50,7 +52,6 @@ fi
 
 # img tag matches the screenshot name
 path=$(grep "<img src=\"/screenshots/.*\">$" $post | sed "s/<img src=\"\/\(.*\)\">$/\1/");
-
 if [[ ! -f $path ]]; then
   echo "$path not found!";
   exit 1;
@@ -69,5 +70,14 @@ if [[ $size != $actual_size ]]; then
   exit 1;
 fi
 
+# test if website is up
+source=$(grep "source:.*" $post | sed "s/source:\ *//");
+if ! curl -s --head  --request GET $source | grep "200 OK" > /dev/null; then
+    echo "$source didn't respond 200 OK."
+    exit 1;
+fi
+
+echo "";
 echo "All tests passed!"
+echo "";
 exit 0;
