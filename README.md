@@ -11,13 +11,14 @@ submission. Submissions with inappropriate content will not be accepted.
 To submit a site suggestions, [open an issue](https://github.com/trek/beautiful-open/issues/new)
 or create a pull request.
 
-Please check the [`CONTRIBUTING.md` file](./CONTRIBUTING.md) for additional requiremnts.
+Please check the [`CONTRIBUTING.md` file](./CONTRIBUTING.md) for additional requirements.
 
 ### Running the site locally
 ```
 $ gem install jekyll
 $ git clone https://github.com/trek/beautiful-open.git
 $ cd beautiful-open
+$ bundle update
 $ jekyll serve --watch
 ```
 
