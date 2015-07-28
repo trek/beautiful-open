@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "azk"
+title: "Azk"
 slug: azk
 source: http://azk.io/
 ---
