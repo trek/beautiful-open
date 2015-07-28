@@ -2,7 +2,7 @@
 layout: post
 title: "Azk"
 slug: azk
-source: http://azk.io/
+source: http://www.azk.io/
 ---
 
 <img src="/screenshots/azk.png">
