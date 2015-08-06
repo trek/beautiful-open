@@ -3,6 +3,6 @@ layout: post
 title: "dropplets"
 slug: Dropplets
 source: http://dropplets.com/
+image: dropplets.png
 ---
 
-<img src="/screenshots/dropplets.png">

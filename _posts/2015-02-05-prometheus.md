@@ -3,6 +3,6 @@ layout: post
 title: "Prometheus"
 slug: prometheus
 source: http://prometheus.io/
+image: prometheus.png
 ---
 
-<img src="/screenshots/prometheus.png">

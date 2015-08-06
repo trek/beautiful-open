@@ -3,6 +3,6 @@ layout: post
 title: "PhantomJS"
 slug: phantomjs
 source: http://phantomjs.org/
+image: phantomjs.png
 ---
 
-<img src="/screenshots/phantomjs.png">

@@ -3,6 +3,5 @@ layout: post
 title: "Discourse"
 slug: discourse
 source: http://www.discourse.org/
+image: discourse.png
 ---
-
-<img src="/screenshots/discourse.png">

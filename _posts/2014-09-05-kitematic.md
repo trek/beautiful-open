@@ -3,6 +3,6 @@ layout: post
 title: "Kitematic"
 slug: kitematic
 source: https://kitematic.com/
+image: kitematic.png
 ---
 
-<img src="/screenshots/kitematic.png">

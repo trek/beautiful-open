@@ -3,6 +3,6 @@ layout: post
 title: "Dimensions"
 slug: dimensions
 source: http://felixniklas.com/dimensions/
+image: dimensions.png
 ---
 
-<img src="/screenshots/dimensions.png">

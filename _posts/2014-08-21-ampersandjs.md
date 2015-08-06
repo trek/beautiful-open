@@ -3,6 +3,6 @@ layout: post
 title: "Ampersand.js"
 slug: ampersandjs
 source: http://ampersandjs.com/
+image: ampersandjs.png
 ---
 
-<img src="/screenshots/ampersandjs.png">

@@ -3,6 +3,6 @@ layout: post
 title: "Nunchuck.js"
 slug: nunchuck-js
 source: http://nunchuckjs.com/
+image: nunchuck-js.png
 ---
 
-<img src="/screenshots/nunchuck-js.png">

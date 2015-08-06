@@ -3,6 +3,6 @@ layout: post
 title: "RuneAudio"
 slug: runeaudio
 source: http://www.runeaudio.com/
+image: runeaudio.png
 ---
 
-<img src="/screenshots/runeaudio.png">

@@ -3,6 +3,6 @@ layout: post
 title: "Let's Encrypt"
 slug: lets-encrypt
 source: https://letsencrypt.org/
+image: lets-encrypt.png
 ---
 
-<img src="/screenshots/lets-encrypt.png">
