@@ -3,6 +3,5 @@ layout: post
 title: "Quotation-Marks"
 slug: quotation-marks
 source: http://quotation-marks.org/
+image: quotation-marks.png
 ---
-
-<img src="/screenshots/quotation-marks.png">
