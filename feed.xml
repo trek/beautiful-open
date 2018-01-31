@@ -21,8 +21,8 @@
       <item>
         <title>{{ post.title }}</title>
         <description><![CDATA[
-          <img src="{{ site.url }}/screenshots/{{ post.image }}" />
-          <p>{{ post.content }}</p>
+          <a href="{{ post.source }}" title="{{ post.title }}"><img src="{{ site.url }}/screenshots/{{ post.image }}" /></a>
+          <p>{{ post.content | xml_escape }}</p>
         ]]></description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
