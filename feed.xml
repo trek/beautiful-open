@@ -20,7 +20,10 @@
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description><![CDATA[
+          <img src="{{ site.url }}/screenshots/{{ post.image }}" />
+          <p>{{ post.content }}</p>
+        ]]></description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
