@@ -11,3 +11,6 @@ future:           false
 name:             Beautiful Open
 url:              http://beautifulopen.com
 description:      "Handsome sites for open source"
+
+plugins:
+  - jekyll-paginate
