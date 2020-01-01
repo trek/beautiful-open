@@ -3,7 +3,7 @@ permalink:        pretty
 
 # Settings
 markdown:         kramdown
-destination:      ./_gh_pages
+destination:      ./_site
 exclude:          ["README.md"]
 paginate:         10
 encoding:         UTF-8
