@@ -27,10 +27,12 @@
 
   {% if page.image %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.url }}/screenshots/{{ page.image }}">
+  <meta name="twitter:image:src" content="{{ site.url }}/screenshots/{{ page.image }}">
+  <meta name="twitter:image:width" content="1000">
+  <meta name="twitter:image:height" content="800">
   {% else %}
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta name="twitter:image:src" content="{{ site.title_image }}">
   {% endif %}
 
   <link rel="shortcut icon" href="/img/favicon.ico" />
