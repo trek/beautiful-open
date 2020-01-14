@@ -12,11 +12,11 @@ screenshot=$(echo $files | cut -f2 -d\ );
 echo "- Screenshot path: $screenshot";
 
 # test filename == xxxx-xx-xx-.*\.md
-match=$(echo $post | grep -o "_posts/xxxx-xx-xx-.*\.md");
-if [[ $match != $post ]]; then
-  echo "$post does not match the pattern \"_posts/xxxx-xx-.*\.md\"";
-  exit 1;
-fi
+# match=$(echo $post | grep -o "_posts/xxxx-xx-xx-.*\.md");
+# if [[ $match != $post ]]; then
+#   echo "$post does not match the pattern \"_posts/xxxx-xx-.*\.md\"";
+#   exit 1;
+# fi
 
 # test _post file content
 
