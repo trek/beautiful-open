@@ -5,14 +5,6 @@ hyphenToTitleCase() {
 }
 files=$(git log -m -1 --name-only --pretty="format:" ${TRAVIS_COMMIT});
 
-# check if numbers of files is 2
-modified_files=$(echo $files | wc -w | sed -e 's/^ *//' -e 's/ *$//' ); #trim it
-echo "- Commit contains $modified_files file(s)";
-if [[ $modified_files -ne "2" ]]; then
-  echo "More than 2 files in the PR.";
-  exit 1;
-fi
-
 # split by space
 post=$(echo $files | cut -f1 -d\ );
 echo "- Post path: $post";
