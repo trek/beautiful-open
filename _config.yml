@@ -1,16 +1,19 @@
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Settings
-markdown:         kramdown
-destination:      ./_site
-exclude:          ["README.md"]
-paginate:         10
-encoding:         UTF-8
-future:           false
-name:             Beautiful Open
-url:              https://beautifulopen.com
-description:      "Handsome sites for open source"
+markdown:  kramdown
+destination: ./_site
+exclude: ["README.md"]
+pagination:
+  enabled: true
+  per_page: 10
+  sort_reverse: true
+encoding: UTF-8
+future: false
+name: Beautiful Open
+url: https://beautifulopen.com
+description: "Handsome sites for open source"
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
