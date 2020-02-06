@@ -5,6 +5,6 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <div class="post">
-  <img src="/screenshots/{{page.image}}">
+  {% if page.image %}<img src="/screenshots/{{page.image}}">{% endif %}
   {{ content }}
 </div>
