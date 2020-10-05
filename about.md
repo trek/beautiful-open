@@ -13,7 +13,7 @@ on the *How to submit* section below. We reserve the right to reject any
 submission. Submissions with inappropriate content will not be accepted.
 
 ## How to submit
-To submit a site suggestion, [open an issue](https://github.com/trek/beautiful-open/issues/new).
+To submit a site suggestion, [open an issue](https://github.com/trek/beautiful-open/issues/new) or create a pull request. Please make sure to follow the patterns described in [CONTRIBUTING.md](https://github.com/trek/beautiful-open/blob/master/CONTRIBUTING.md)
 
 ## About the site
 Inspired by [Bootstrap Expo](http://expo.getbootstrap.com/)
