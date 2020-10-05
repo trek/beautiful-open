@@ -21,10 +21,3 @@ $ cd beautiful-open
 $ jekyll serve --watch
 ```
 
-### Taking screenshots
-```
-npm install phantomjs async
-phantomjs snap.js http://somesite.com aSiteName
-```
-
-The screenshot may not always look great, but it can work in a pinch!
